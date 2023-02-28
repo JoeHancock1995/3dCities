@@ -22,7 +22,7 @@ var map = new OSMBuildings({
   //   backgroundColor= '#baf9'
   // );
   
-  map.addMapTiles('https://api.mapbox.com/styles/v1/osmbuildings/cjt9gq35s09051fo7urho3m0f/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoiam9laGFuY29jazk1IiwiYSI6ImNsZGY1ejkwdjBmbjczcW1wZ2V6bHZ6bmcifQ.bE4tjSuBIdr3wJjz6uDjpg');
+  map.addMapTiles('https://api.mapbox.com/styles/v1/osmbuildings/cjt9gq35s09051fo7urho3m0f/tiles/256/{z}/{x}/{y}@2x?access_token=YOUR-API-KEY-HERE');
   map.addGeoJSONTiles('https://{s}.data.osmbuildings.org/0.2/dixw8kmb/tile/{z}/{x}/{y}.json');
 
   let rotation = 0;
