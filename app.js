@@ -4,10 +4,10 @@ var map = new OSMBuildings({
     container: 'map',
 
     // New York City
-    position: { latitude: 40.71, longitude: -74.02 },
+    //position: { latitude: 40.71, longitude: -74.02 },
 
     // Los Angeles
-    // position: { latitude: 34.05, longitude: -118.24},
+    //position: { latitude: 34.05, longitude: -118.24},
 
     // Chicago
     // position: { latitude: 41.88, longitude: -87.62},
@@ -27,6 +27,12 @@ var map = new OSMBuildings({
     // Paris
     //position: { latitude: 48.86, longitude: 2.34},
 
+    // Tokyo
+    //position: { latitude: 35.68, longitude: 139.76},
+
+    // Hong Kong
+    position: { latitude: 22.32, longitude: 114.20},
+
     zoom: 1,
     minZoom: 1,
     maxZoom: 4,
@@ -43,7 +49,7 @@ var map = new OSMBuildings({
   //   backgroundColor= '#baf9'
   // );
   
-  map.addMapTiles('https://api.mapbox.com/styles/v1/osmbuildings/cjt9gq35s09051fo7urho3m0f/tiles/256/{z}/{x}/{y}@2x?access_token=YOUR-MAPBOX-API-TOKEN');
+  map.addMapTiles('https://api.mapbox.com/styles/v1/osmbuildings/cjt9gq35s09051fo7urho3m0f/tiles/256/{z}/{x}/{y}@2x?access_token=APIKEYGOESHERE');
   map.addGeoJSONTiles('https://{s}.data.osmbuildings.org/0.2/dixw8kmb/tile/{z}/{x}/{y}.json');
 
   let rotation = 0;
